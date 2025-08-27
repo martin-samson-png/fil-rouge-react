@@ -1,0 +1,53 @@
+@import "./_variables.css";
+
+header {
+  display: flex;
+  background-color: var(--primary-color);
+  height: 10vh;
+  padding: 1rem 2rem 1rem 2rem;
+
+  section {
+    display: flex;
+    align-items: center;
+  }
+  .title-section {
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    width: 20%;
+
+    h1 {
+      font-size: 50px;
+    }
+  }
+  .right-section {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80%;
+
+    .nav-categorie {
+      display: flex;
+      gap: 10rem;
+      width: 100%;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      font-weight: bolder;
+      font-size: 20px;
+    }
+
+    .user-menu {
+      width: 100%;
+      display: flex;
+      justify-content: end;
+      padding-right: 1rem;
+
+      button {
+        border: none;
+        background-color: transparent;
+        font-size: 2rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 80vh;
+  background-color: grey;
+
+  .titleRegister {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+
+    h2 {
+      background-color: antiquewhite;
+      padding: 0;
+      font-size: 2.5rem;
+    }
+
+    p {
+      background-color: azure;
+    }
+  }
+  form {
+    font-size: 20px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    height: 55%;
+    width: 22%;
+    border-radius: 1rem;
+
+    fieldset {
+      font-size: 20px;
+      background-color: aqua;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 1rem;
+      width: 100%;
+      height: 90%;
+      border: none;
+
+      div {
+        background-color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        height: 20%;
+        input {
+          height: 40%;
+          font-size: 16px;
+          border-radius: 0.2rem;
+          border: 1px solid gray;
+        }
+
+        span {
+          color: red;
+        }
+      }
+    }
+
+    button {
+      height: 10%;
+      width: 60%;
+      font-size: 20px;
+      border-radius: 0.5rem;
+      border: 1px solid gray;
+    }
+  }
+}
